@@ -59,7 +59,6 @@ body {
 
 .start__choose {
   display: flex;
-  list-style-type: none;
   cursor: pointer;
   font: bold 47px/57px 'roboto-font', sans-serif;
   padding-bottom: 26px;
@@ -67,7 +66,7 @@ body {
 }
 
 .start__rectangle {
-  list-style-image: url(img/Rectangle.png);
+  background: url(img/Rectangle.png);
 }
 
 .start__btn {
