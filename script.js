@@ -1,7 +1,9 @@
 let field = document.getElementById('field');
 let title = document.getElementById('header');
-let difficulty = document.getElementsByClassName('start__choose');
 let choice, line, card;
+
+// выбор уровня
+let difficulty = document.getElementsByClassName('start__choose');
 for (let e of difficulty) {
   e.addEventListener('click', chooseDifficulty => {
     if (choice) {
